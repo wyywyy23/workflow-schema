@@ -90,8 +90,8 @@
         },
         "executedAt": {
           "description": "Workflow start execution timestamp",
-          "type": "string",
-          "minLength": 1
+          "type": "integer",
+          "minimum": 0
         },
         "machines": {
           "description": "Sets of machines used for workflow jobs",
