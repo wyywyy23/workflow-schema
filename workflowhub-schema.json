@@ -271,7 +271,15 @@
                 "description": "Machine name used",
                 "type": "string",
                 "minLength": 1
-              }
+              },
+	      "endTimeInTrace": {
+		"description": "End time recorded in trace",
+		"type": "number"
+	      },
+	      "startTimeInTrace": {
+		"description": "Start time recorded in trace",
+		"type": "number"
+	      }
             },
             "required": [
               "name",
