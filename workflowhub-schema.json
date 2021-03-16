@@ -90,7 +90,7 @@
         },
         "executedAt": {
           "description": "Workflow start execution timestamp",
-          "type": "integer",
+          "type": "number",
           "minimum": 0
         },
         "machines": {
@@ -211,7 +211,7 @@
                     },
                     "size": {
                       "description": "File size in KB",
-                      "type": "integer",
+                      "type": "number",
                       "minimum": 0
                     },
                     "link": {
